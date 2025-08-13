@@ -39,29 +39,29 @@ document.addEventListener('DOMContentLoaded', () => {
                 explanation: 'This sutra means "One more than the previous one." It\'s a brilliant shortcut for squaring numbers that end in 5. You simply multiply the digit(s) before the 5 by the next consecutive number, and then append 25 to the result. It can also be used for multiplying two numbers whose last digits add up to 10 and the rest of the digits are the same.',
                 examples: [
                     {
-                        problem: 'Square $35^2$',
+                        problem: 'Square 35^2',
                         solution: `
                         **Step 1:** The number before the 5 is 3. The next consecutive number is 4.
-                        **Step 2:** Multiply these two numbers: $3 \\times 4 = 12$. This is the first part of the answer.
+                        **Step 2:** Multiply these two numbers: 3 x 4 = 12. This is the first part of the answer.
                         **Step 3:** Always append 25 to the result.
                         **Answer:** 1225
                         `
                     },
                     {
-                        problem: 'Multiply $43 \\times 47$',
+                        problem: 'Multiply 43 x 47',
                         solution: `
                         **Step 1:** The last digits (3 and 7) add up to 10. The first digits (4) are the same.
-                        **Step 2:** The first digit is 4. The next consecutive number is 5. Multiply them: $4 \\times 5 = 20$.
-                        **Step 3:** Multiply the last digits: $3 \\times 7 = 21$.
+                        **Step 2:** The first digit is 4. The next consecutive number is 5. Multiply them: 4 x 5 = 20.
+                        **Step 3:** Multiply the last digits: 3 x 7 = 21.
                         **Step 4:** Combine the results.
                         **Answer:** 2021
                         `
                     },
                     {
-                        problem: 'Square $85^2$',
+                        problem: 'Square 85^2',
                         solution: `
                         **Step 1:** The number before the 5 is 8. The next consecutive number is 9.
-                        **Step 2:** Multiply them: $8 \\times 9 = 72$.
+                        **Step 2:** Multiply them: 8 x 9 = 72.
                         **Step 3:** Append 25.
                         **Answer:** 7225
                         `
@@ -91,28 +91,28 @@ document.addEventListener('DOMContentLoaded', () => {
                 explanation: 'This sutra means "One less than the previous one" and is a powerful tool for multiplying any number by a series of nines (like 9, 99, 999, etc.). To solve, you subtract 1 from the number being multiplied, and this gives you the left part of the answer. Then, subtract the left part from the series of nines to get the right part of the answer.',
                 examples: [
                     {
-                        problem: 'Multiply $54 \\times 99$',
+                        problem: 'Multiply 54 x 99',
                         solution: `
-                        **Step 1:** Subtract 1 from the first number: $54 - 1 = 53$. This is the first part of the answer.
-                        **Step 2:** Subtract the result from 99: $99 - 53 = 46$. This is the second part.
+                        **Step 1:** Subtract 1 from the first number: 54 - 1 = 53. This is the first part of the answer.
+                        **Step 2:** Subtract the result from 99: 99 - 53 = 46. This is the second part.
                         **Step 3:** Combine the parts.
                         **Answer:** 5346
                         `
                     },
                     {
-                        problem: 'Multiply $123 \\times 999$',
+                        problem: 'Multiply 123 x 999',
                         solution: `
-                        **Step 1:** Subtract 1 from the first number: $123 - 1 = 122$.
-                        **Step 2:** Subtract the result from 999: $999 - 122 = 877$.
+                        **Step 1:** Subtract 1 from the first number: 123 - 1 = 122.
+                        **Step 2:** Subtract the result from 999: 999 - 122 = 877.
                         **Step 3:** Combine the parts.
                         **Answer:** 122877
                         `
                     },
                     {
-                        problem: 'Multiply $8 \\times 9$',
+                        problem: 'Multiply 8 x 9',
                         solution: `
-                        **Step 1:** Subtract 1 from the first number: $8 - 1 = 7$.
-                        **Step 2:** Subtract the result from 9: $9 - 7 = 2$.
+                        **Step 1:** Subtract 1 from the first number: 8 - 1 = 7.
+                        **Step 2:** Subtract the result from 9: 9 - 7 = 2.
                         **Step 3:** Combine the parts.
                         **Answer:** 72
                         `
@@ -132,31 +132,31 @@ document.addEventListener('DOMContentLoaded', () => {
                 explanation: 'This sutra means "By the deficiency." It\'s used for squaring numbers close to a base like 10, 100, or 1000. You find the difference from the base, subtract this difference from the number, and then append the square of the difference to the result. It makes mental calculations quick and easy!',
                 examples: [
                     {
-                        problem: 'Square $97^2$',
+                        problem: 'Square 97^2',
                         solution: `
-                        **Step 1:** The base is 100. The difference is $100 - 97 = 3$.
-                        **Step 2:** Subtract the difference from the number: $97 - 3 = 94$. This is the left part.
-                        **Step 3:** Square the difference: $3^2 = 9$. This is the right part. Since the base has two zeros, the right part must have two digits. So, we write it as 09.
+                        **Step 1:** The base is 100. The difference is 100 - 97 = 3.
+                        **Step 2:** Subtract the difference from the number: 97 - 3 = 94. This is the left part.
+                        **Step 3:** Square the difference: 3^2 = 9. This is the right part. Since the base has two zeros, the right part must have two digits. So, we write it as 09.
                         **Step 4:** Combine the parts.
                         **Answer:** 9409
                         `
                     },
                     {
-                        problem: 'Square $8^2$',
+                        problem: 'Square 8^2',
                         solution: `
-                        **Step 1:** The base is 10. The difference is $10 - 8 = 2$.
-                        **Step 2:** Subtract the difference from the number: $8 - 2 = 6$.
-                        **Step 3:** Square the difference: $2^2 = 4$.
+                        **Step 1:** The base is 10. The difference is 10 - 8 = 2.
+                        **Step 2:** Subtract the difference from the number: 8 - 2 = 6.
+                        **Step 3:** Square the difference: 2^2 = 4.
                         **Step 4:** Combine the parts.
                         **Answer:** 64
                         `
                     },
                     {
-                        problem: 'Square $994^2$',
+                        problem: 'Square 994^2',
                         solution: `
-                        **Step 1:** The base is 1000. The difference is $1000 - 994 = 6$.
-                        **Step 2:** Subtract the difference from the number: $994 - 6 = 988$.
-                        **Step 3:** Square the difference: $6^2 = 36$. Since the base has three zeros, the right part must have three digits. So, we write it as 036.
+                        **Step 1:** The base is 1000. The difference is 1000 - 994 = 6.
+                        **Step 2:** Subtract the difference from the number: 994 - 6 = 988.
+                        **Step 3:** Square the difference: 6^2 = 36. Since the base has three zeros, the right part must have three digits. So, we write it as 036.
                         **Answer:** 988036
                         `
                     }
@@ -175,31 +175,31 @@ document.addEventListener('DOMContentLoaded', () => {
                 explanation: 'This translates to "Vertically and Crosswise" and is a powerful general multiplication method. It can be used to multiply any two numbers, regardless of their size. It involves a systematic way of multiplying digits in columns and adding the results, which is much faster than the conventional method.',
                 examples: [
                     {
-                        problem: 'Multiply $12 \\times 34$',
+                        problem: 'Multiply 12 x 34',
                         solution: `
-                        **Step 1 (Vertical):** Multiply the last digits: $2 \\times 4 = 8$. (Last digit of the answer is 8)
-                        **Step 2 (Crosswise):** Cross-multiply and add: $(1 \\times 4) + (2 \\times 3) = 4 + 6 = 10$. (Write down 0, carry over 1)
-                        **Step 3 (Vertical):** Multiply the first digits and add the carry: $(1 \\times 3) + 1 = 4$. (First digit is 4)
+                        **Step 1 (Vertical):** Multiply the last digits: 2 x 4 = 8. (Last digit of the answer is 8)
+                        **Step 2 (Crosswise):** Cross-multiply and add: (1 x 4) + (2 x 3) = 4 + 6 = 10. (Write down 0, carry over 1)
+                        **Step 3 (Vertical):** Multiply the first digits and add the carry: (1 x 3) + 1 = 4. (First digit is 4)
                         **Answer:** 408
                         `
                     },
                     {
-                        problem: 'Multiply $21 \\times 53$',
+                        problem: 'Multiply 21 x 53',
                         solution: `
-                        **Step 1:** Multiply last digits: $1 \\times 3 = 3$. (Last digit is 3)
-                        **Step 2:** Cross-multiply and add: $(2 \\times 3) + (1 \\times 5) = 6 + 5 = 11$. (Write down 1, carry over 1)
-                        **Step 3:** Multiply first digits and add the carry: $(2 \\times 5) + 1 = 11$. (First digits are 11)
+                        **Step 1:** Multiply last digits: 1 x 3 = 3. (Last digit is 3)
+                        **Step 2:** Cross-multiply and add: (2 x 3) + (1 x 5) = 6 + 5 = 11. (Write down 1, carry over 1)
+                        **Step 3:** Multiply first digits and add the carry: (2 x 5) + 1 = 11. (First digits are 11)
                         **Answer:** 1113
                         `
                     },
                     {
-                        problem: 'Multiply $123 \\times 456$',
+                        problem: 'Multiply 123 x 456',
                         solution: `
-                        **Step 1:** Vertical: $3 \\times 6 = 18$ (8, carry 1)
-                        **Step 2:** Crosswise: $(2 \\times 6) + (3 \\times 5) + 1 = 12 + 15 + 1 = 28$ (8, carry 2)
-                        **Step 3:** Three-digit crosswise: $(1 \\times 6) + (3 \\times 4) + (2 \\times 5) + 2 = 6 + 12 + 10 + 2 = 30$ (0, carry 3)
-                        **Step 4:** Crosswise: $(1 \\times 5) + (2 \\times 4) + 3 = 5 + 8 + 3 = 16$ (6, carry 1)
-                        **Step 5:** Vertical: $(1 \\times 4) + 1 = 5$ (5)
+                        **Step 1:** Vertical: 3 x 6 = 18 (8, carry 1)
+                        **Step 2:** Crosswise: (2 x 6) + (3 x 5) + 1 = 12 + 15 + 1 = 28 (8, carry 2)
+                        **Step 3:** Three-digit crosswise: (1 x 6) + (3 x 4) + (2 x 5) + 2 = 6 + 12 + 10 + 2 = 30 (0, carry 3)
+                        **Step 4:** Crosswise: (1 x 5) + (2 x 4) + 3 = 5 + 8 + 3 = 16 (6, carry 1)
+                        **Step 5:** Vertical: (1 x 4) + 1 = 5 (5)
                         **Answer:** 56088
                         `
                     }
@@ -216,25 +216,25 @@ document.addEventListener('DOMContentLoaded', () => {
                 explanation: 'This sutra means "When the sum is the same, that sum is zero." It\'s a quick way to solve certain types of linear equations. For example, if two expressions are equal and they both contain the same term, that term can be equated to zero to find the value of the variable.',
                 examples: [
                     {
-                        problem: 'Solve for x: $5x + 3 = 5x + 9$',
+                        problem: 'Solve for x: 5x + 3 = 5x + 9',
                         solution: `
-                        **Step 1:** Notice that the term $5x$ is the same on both sides of the equation.
-                        **Step 2:** The sutra tells us that when a common term exists, we can look at the other numbers. The other terms are 3 and 9. If they were the same, $5x+3=5x+3$, any x would be a solution. However, since the sums on both sides are not the same, there is no solution.
+                        **Step 1:** Notice that the term 5x is the same on both sides of the equation.
+                        **Step 2:** The sutra tells us that when a common term exists, we can look at the other numbers. The other terms are 3 and 9. If they were the same, 5x+3=5x+3, any x would be a solution. However, since the sums on both sides are not the same, there is no solution.
                         `
                     },
                     {
-                        problem: 'Solve for x: $(x+7) (x+9) = (x+5) (x+12)$',
+                        problem: 'Solve for x: (x+7) (x+9) = (x+5) (x+12)',
                         solution: `
-                        **Step 1:** The terms in the parentheses are of the form $(x+a)$ and $(x+b)$. The sutra can be applied if the sum of the constant terms on both sides is equal.
-                        **Step 2:** On the left side, the sum is $7 + 9 = 16$. On the right side, the sum is $5 + 12 = 17$. The sums are not equal, so there is no simple solution using this sutra. Let's create a new example where the sum is the same.
+                        **Step 1:** The terms in the parentheses are of the form (x+a) and (x+b). The sutra can be applied if the sum of the constant terms on both sides is equal.
+                        **Step 2:** On the left side, the sum is 7 + 9 = 16. On the right side, the sum is 5 + 12 = 17. The sums are not equal, so there is no simple solution using this sutra. Let's create a new example where the sum is the same.
                         `
                     },
                     {
-                        problem: 'Solve for x: $(x+7) (x+9) = (x+5) (x+11)$',
+                        problem: 'Solve for x: (x+7) (x+9) = (x+5) (x+11)',
                         solution: `
-                        **Step 1:** The sums of the constant terms are $7+9=16$ and $5+11=16$. Since the sums are the same, the sutra applies.
+                        **Step 1:** The sums of the constant terms are 7+9=16 and 5+11=16. Since the sums are the same, the sutra applies.
                         **Step 2:** The sutra states that if the sum is the same, that sum is zero. In this context, it implies that the variable is zero.
-                        **Answer:** $x=0$
+                        **Answer:** x=0
                         `
                     }
                 ],
@@ -253,30 +253,30 @@ document.addEventListener('DOMContentLoaded', () => {
                 explanation: 'This translates to "All from 9 and the last from 10." This method is fantastic for multiplication, especially when the numbers are close to a base like 10, 100, or 1000. You find the difference of each number from the base. Then, you cross-add or subtract the differences to get the first part of the answer and multiply the differences to get the second part.',
                 examples: [
                     {
-                        problem: 'Multiply $8 \\times 7$',
+                        problem: 'Multiply 8 x 7',
                         solution: `
                         **Step 1:** The base is 10. The numbers are 2 and 3 less than 10.
-                        **Step 2:** Left part of answer: cross-subtract. $(8 - 3) = 5$ or $(7 - 2) = 5$.
-                        **Step 3:** Right part of answer: multiply the deficiencies. $2 \\times 3 = 6$.
+                        **Step 2:** Left part of answer: cross-subtract. (8 - 3) = 5 or (7 - 2) = 5.
+                        **Step 3:** Right part of answer: multiply the deficiencies. 2 x 3 = 6.
                         **Step 4:** Combine the parts.
                         **Answer:** 56
                         `
                     },
                     {
-                        problem: 'Multiply $96 \\times 98$',
+                        problem: 'Multiply 96 x 98',
                         solution: `
-                        **Step 1:** The base is 100. The deficiencies are $100 - 96 = 4$ and $100 - 98 = 2$.
-                        **Step 2:** Left part: cross-subtract. $96 - 2 = 94$ or $98 - 4 = 94$.
-                        **Step 3:** Right part: multiply the deficiencies. $4 \\times 2 = 8$. Since the base has two zeros, the right part needs two digits, so we write it as 08.
+                        **Step 1:** The base is 100. The deficiencies are 100 - 96 = 4 and 100 - 98 = 2.
+                        **Step 2:** Left part: cross-subtract. 96 - 2 = 94 or 98 - 4 = 94.
+                        **Step 3:** Right part: multiply the deficiencies. 4 x 2 = 8. Since the base has two zeros, the right part needs two digits, so we write it as 08.
                         **Answer:** 9408
                         `
                     },
                     {
-                        problem: 'Multiply $104 \\times 107$',
+                        problem: 'Multiply 104 x 107',
                         solution: `
-                        **Step 1:** The base is 100. The surpluses are $104 - 100 = 4$ and $107 - 100 = 7$.
-                        **Step 2:** Left part: cross-add. $104 + 7 = 111$ or $107 + 4 = 111$.
-                        **Step 3:** Right part: multiply the surpluses. $4 \\times 7 = 28$.
+                        **Step 1:** The base is 100. The surpluses are 104 - 100 = 4 and 107 - 100 = 7.
+                        **Step 2:** Left part: cross-add. 104 + 7 = 111 or 107 + 4 = 111.
+                        **Step 3:** Right part: multiply the surpluses. 4 x 7 = 28.
                         **Step 4:** Combine the parts.
                         **Answer:** 11128
                         `
